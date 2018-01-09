@@ -28,7 +28,7 @@ bar.append('rect')
 
 bar.append('text')
     .attr('x', (d)=>{
-        return x(d) -3;
+        return x(d) - 3;
     })
     .attr('y', barHeight / 2)
     .attr('dy', '.35em')
